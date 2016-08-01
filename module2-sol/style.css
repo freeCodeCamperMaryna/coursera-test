@@ -1,0 +1,102 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	font-family: Arial;
+}
+
+.wrapper{
+	position:relative;
+	width:100%;
+	margin-top:50px;
+}
+
+h1{
+text-align:center;
+
+font-size:175%;
+}
+
+section{
+position:relative;
+background-color:  #e6ffff;
+border:1px solid black;
+margin:15px;
+width:31%;
+float:left;
+
+}
+
+#first-title{
+position:absolute;
+right:0;
+top:0;
+padding:5px 25px 5px 25px;
+background-color:	 #66ff66;
+border:1px solid black;
+font-size:125%;
+}
+
+#second-title{
+position:absolute;
+right:0;
+top:0;
+padding:5px 25px 5px 25px;
+background-color: #ffff80;
+border:1px solid black;
+font-size:125%;
+}
+
+#third-title{
+position:absolute;
+right:0;
+top:0;
+padding:5px 25px 5px 25px;
+background-color: #ffccff;
+border:1px solid black;
+font-size:125%;
+}
+
+
+section >p {
+
+margin-top:30px;
+padding:10px;
+}
+
+
+@media (min-width:992px){
+	#one{
+       width:30%;
+	}
+	#two{
+       width:30%;
+	}
+	#three{
+       width:30%;
+	}
+}
+
+@media (min-width:768px) and (max-width: 991px){
+	#one{
+       width:46%;
+	}
+	#two{
+       width:46%;
+	}
+	#three{
+       width:95%;
+	}
+}
+
+@media (max-width: 767px){
+	#one{
+       width:95%;
+	}
+	#two{
+       width:95%;
+	}
+	#three{
+       width:95%;
+	}
+}
